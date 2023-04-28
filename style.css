@@ -1,4 +1,5 @@
 body {
+  overflow: hidden;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -6,7 +7,6 @@ body {
   background-color: hsl(212, 45%, 89%);
   margin: 0;
   padding: 0;
-  overflow: hidden;
   min-height: 100vh;
 }
 
@@ -14,27 +14,14 @@ body {
   display: flex;
   flex-direction: column;
   background-color: white;
-  border-radius: 15px;
-  height: 400px;
-  width: 250px;
+  border-radius: 1rem;
+  width: 20rem;
   padding: 1rem;
 }
 
-.qr-code-container {
-  margin: 0;
-  padding: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex: 2;
-
-}
-
 .qr-code {
-  height: 250px;
-  width: 250px; 
-  object-fit: contain;
-  border-radius: 15px;
+  max-width: 100%;
+  border-radius: 1rem;
 }
 
 .text-content {
@@ -43,15 +30,20 @@ body {
 }
 
 h1 {
-  font-size: 20px;
+  font-size: 1.5rem;
   font-weight: 700;
   text-align: center;
   color: hsl(218, 44%, 22%);
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 0;
 }
 
 p {
-  font-size: 15px;
+  font-size: 1rem;
   font-weight: 400;
   color: hsl(220, 15%, 55%);
   text-align: center;
+  margin: 1rem;
 }
